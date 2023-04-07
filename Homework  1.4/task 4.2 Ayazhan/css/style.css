@@ -1,0 +1,20 @@
+.move{
+  display: inline-block;
+  background-color: blue;
+  color: black;
+  text-decoration: none;
+  padding-left: 26px;
+  line-height: 64px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.move:after{
+content: '>';
+display: inline-block;
+width: 59px;
+height: 64px;
+background-color: aqua;
+line-height: 64px;
+text-align: center;
+color: white;
+margin-left: 26px;
+}
